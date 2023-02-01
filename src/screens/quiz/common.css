@@ -1,0 +1,41 @@
+.main-layout-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-layout-wrap .quiz-header {
+  display: flex;
+  background-color: red;
+}
+
+.main-layout-wrap .quiz-start-btn-wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-layout-wrap .quiz-start-btn-wrap .quiz-info-wrapper {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.main-layout-wrap .quiz-start-btn-wrap .quiz-information {
+  width: 50%;
+}
+
+.main-layout-wrap .quiz-start-btn {
+  width: 50%;
+  margin: 5rem;
+}
+
+.main-layout-wrap .ooter-start-test-page {
+  display: flex;
+  height: 10%;
+}
+
+.manage-buttons{
+  margin: 20px;
+  width: 40%;
+}
